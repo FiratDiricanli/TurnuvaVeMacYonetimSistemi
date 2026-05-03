@@ -22,15 +22,6 @@ Platform: .NET Windows Forms (WinForms)
 
 Mimari: Nesne Tabanlı Programlama (OOP) ilkeleriyle kurgulanmış Takim ve MacGecmisi sınıfları.
 
-👨‍💻 Geliştirici Bilgileri
-İsim Soyisim: Fırat Diricanlı
-
-Öğrenci Numarası: 2300005412
-
-Üniversite: İstanbul Kültür Üniversitesi (İKÜ)
-
-Bölüm: Bilgisayar Programcılığı
-
 📋 Kurulum ve Çalıştırma
 Projeyi bilgisayarınıza indirin veya klonlayın:
 git clone [https://github.com/FiratDiricanli/TurnuvaVeMacYonetimSistemi.git](https://github.com/FiratDiricanli/TurnuvaVeMacYonetimSistemi.git)
