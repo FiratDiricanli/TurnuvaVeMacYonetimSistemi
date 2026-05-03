@@ -1,31 +1,32 @@
-🏆 Turnuva ve Maç Yönetim Sistemi
-C# programlama dili ve Windows Forms arayüzü kullanılarak geliştirilmiş, dinamik bir Süper Lig Puan Durumu ve Maç Yönetim Sistemi uygulamasıdır. Bu proje, spor turnuvalarındaki karmaşık puanlama mantığını ve takım istatistiklerini kullanıcı dostu bir arayüzle yönetmeyi amaçlar.
+🏆 Turnuva Maç Yönetim Sistemi
+C# programlama dili ve Windows Forms arayüzü kullanılarak geliştirilmiş, profesyonel bir Turnuva ve Maç Yönetimi uygulamasıdır. Bu sistem, spor organizasyonlarında puan durumunun, takım istatistiklerinin ve maç sonuçlarının dinamik bir şekilde takip edilmesini sağlar.
 
-⚽ Proje Hakkında
-Uygulama, takımların galibiyet, beraberlik, mağlubiyet durumlarına göre puanlarını ve averajlarını otomatik olarak hesaplayan bir "Maç Motoru" üzerine kuruludur. Kullanıcılar lige yeni takımlar ekleyebilir, gerçek zamanlı olarak maç sonuçlarını girerek puan durumunu güncelleyebilir ve tüm maç geçmişini takip edebilirler.
+⚽ Proje Amacı
+Uygulama, manuel puan hesaplama karmaşasını ortadan kaldırarak lig veya turnuva usulü organizasyonlarda verilerin doğruluğunu garanti altına almak amacıyla tasarlanmıştır. Nesne Tabanlı Programlama (OOP) mimarisi sayesinde esnek ve geliştirilebilir bir yapı sunar.
 
 🚀 Öne Çıkan Özellikler
-Dinamik Puan Durumu: Takımların oynadığı maç sayısı, galibiyet, mağlubiyet, atılan/yenilen gol ve averaj verilerini içeren profesyonel tablo görünümü.
+Dinamik Puan Tablosu: Oynanan her maçın ardından galibiyet, beraberlik, mağlubiyet ve puan verilerini otomatik olarak güncelleyen canlı tablo.
 
-Gelişmiş Maç Motoru: Girilen skorlara göre puanları (3-1-0 sistemi) anlık hesaplar ve takımları Puan > Averaj > Atılan Gol kriterlerine göre sıralar.
+Gelişmiş Sıralama Algoritması: Takımları toplam puan, ardından averaj ve atılan gol kriterlerine göre profesyonel lig standartlarında sıralama.
 
-Esnek Takım Yönetimi: Lige istenilen zaman yeni takımlar eklenebilir.
+Maç Kayıt Sistemi: Skor girişleri yapıldıktan sonra tüm maç verilerini sistem hafızasında işleyen ve raporlayan yapı.
 
-Maç Geçmişi Logları: Oynanan tüm maçların özetini saat bilgisiyle birlikte listeleyen geçmiş sekmesi.
+Averaj Hesaplayıcı: Atılan ve yenilen goller arasındaki farkı (averaj) anlık olarak hesaplayan entegre modül.
 
-Hata Kontrolü: Boş takım adı, bir takımın kendisiyle maç yapması veya hatalı skor girişi gibi durumlar için entegre uyarı sistemleri.
+Hata Yönetimi: Geçersiz skor girişlerini veya hatalı takım eşleşmelerini engelleyen kontrol mekanizmaları.
 
-🛠️ Teknik Detaylar
-Dil: C#
+🛠️ Teknik Altyapı
+Programlama Dili: C# (.NET).
 
-Platform: .NET Windows Forms (WinForms)
+Arayüz: Windows Forms Application (WinForms).
 
-Mimari: Nesne Tabanlı Programlama (OOP) ilkeleriyle kurgulanmış Takim ve MacGecmisi sınıfları.
+Mimari: Nesne Tabanlı Programlama (OOP) ilkelerine uygun sınıf yapıları.
 
-📋 Kurulum ve Çalıştırma
-Projeyi bilgisayarınıza indirin veya klonlayın:
-git clone [https://github.com/FiratDiricanli/TurnuvaVeMacYonetimSistemi.git](https://github.com/FiratDiricanli/TurnuvaVeMacYonetimSistemi.git)
+Dosya Yönetimi: Gereksiz derleme dosyalarını dışarıda tutan .gitignore yapılandırması.
 
-Visual Studio ile .sln veya .slnx dosyasını açın.
+🔧 Kurulum ve Çalıştırma
+Projeyi bilgisayarınıza indirin veya klonlayın.
 
-F5 tuşuna basarak projeyi derleyip çalıştırın.
+Turnuva ve Maç Yönetim Sistemi.slnx dosyasını Visual Studio ile açın.
+
+Visual Studio üzerinden projeyi derleyin ve F5 tuşu ile başlatın.
