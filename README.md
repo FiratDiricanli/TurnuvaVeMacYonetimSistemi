@@ -1,28 +1,27 @@
 # 🏆 Turnuva ve Maç Yönetim Sistemi
 
-Spor organizasyonlarında takımların, maçların ve puan durumlarının profesyonel standartlarda takip edilmesini sağlayan tamamen özgün bir **C# Windows Forms** uygulamasıdır.
+Bu proje, takımların kaydedildiği ve yapılan maçların skorlarının girilerek basit bir puan tablosu oluşturulduğu bir **C# Windows Forms** uygulamasıdır.
 
 ---
 
 ## 🚀 Özellikler
 
-*   ⚽ **Canlı Puan Durumu:** Maç skorları girildiğinde otomatik güncellenen dinamik tablo.
-*   📊 **Gelişmiş Sıralama:** Puan, averaj ve atılan gol kriterlerine göre otomatik lig sıralaması.
-*   📝 **Eşleşme Yönetimi:** Takımlar arası fikstür oluşturma ve skor kayıt sistemi.
-*   ⚠️ **Hata Denetimi:** Geçersiz skor girişlerini ve mantıksal hataları engelleyen kontrol mekanizması.
+*   ⚽ **Takım Kaydı:** Turnuvaya katılacak takımların listeye eklenmesi.
+*   📝 **Skor Girişi:** Oynanan maçların skorlarının sisteme girilmesi.
+*   📊 **Puan Durumu:** Girilen skorlara göre galibiyet ve puanların hesaplanıp listelenmesi.
+*   🗑️ **Düzenleme:** Hatalı girilen takımların veya skorların silinip güncellenmesi.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-*   **C# (.NET)**
-*   **Windows Forms App**
-*   **Nesne Tabanlı Programlama (OOP)**
+*   **C# (Windows Forms)**
+*   **.NET Framework**
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-1.  **Solution Dosyasını Açın:** Visual Studio üzerinden `.sln` uzantılı dosyayı başlatın.
-2.  **Derleme:** Üst menüden **Build > Build Solution** seçeneğine tıklayın.
-3.  **Başlatın:** **F5** tuşuna basarak turnuva yönetim panelini aktif hale getirin.
+1.  Visual Studio ile `.sln` dosyasını açın.
+2.  **F5** tuşuna basarak projeyi çalıştırın.
+3.  Önce takımları ekleyip sonra maç skorlarını girerek sistemi test edin.
