@@ -1,32 +1,28 @@
-🏆 Turnuva Maç Yönetim Sistemi
-C# programlama dili ve Windows Forms arayüzü kullanılarak geliştirilmiş, profesyonel bir Turnuva ve Maç Yönetimi uygulamasıdır. Bu sistem, spor organizasyonlarında puan durumunun, takım istatistiklerinin ve maç sonuçlarının dinamik bir şekilde takip edilmesini sağlar.
+# 🏆 Turnuva ve Maç Yönetim Sistemi
 
-⚽ Proje Amacı
-Uygulama, manuel puan hesaplama karmaşasını ortadan kaldırarak lig veya turnuva usulü organizasyonlarda verilerin doğruluğunu garanti altına almak amacıyla tasarlanmıştır. Nesne Tabanlı Programlama (OOP) mimarisi sayesinde esnek ve geliştirilebilir bir yapı sunar.
+Spor organizasyonlarında takımların, maçların ve puan durumlarının profesyonel standartlarda takip edilmesini sağlayan tamamen özgün bir **C# Windows Forms** uygulamasıdır.
 
-🚀 Öne Çıkan Özellikler
-Dinamik Puan Tablosu: Oynanan her maçın ardından galibiyet, beraberlik, mağlubiyet ve puan verilerini otomatik olarak güncelleyen canlı tablo.
+---
 
-Gelişmiş Sıralama Algoritması: Takımları toplam puan, ardından averaj ve atılan gol kriterlerine göre profesyonel lig standartlarında sıralama.
+## 🚀 Özellikler
 
-Maç Kayıt Sistemi: Skor girişleri yapıldıktan sonra tüm maç verilerini sistem hafızasında işleyen ve raporlayan yapı.
+*   ⚽ **Canlı Puan Durumu:** Maç skorları girildiğinde otomatik güncellenen dinamik tablo.
+*   📊 **Gelişmiş Sıralama:** Puan, averaj ve atılan gol kriterlerine göre otomatik lig sıralaması.
+*   📝 **Eşleşme Yönetimi:** Takımlar arası fikstür oluşturma ve skor kayıt sistemi.
+*   ⚠️ **Hata Denetimi:** Geçersiz skor girişlerini ve mantıksal hataları engelleyen kontrol mekanizması.
 
-Averaj Hesaplayıcı: Atılan ve yenilen goller arasındaki farkı (averaj) anlık olarak hesaplayan entegre modül.
+---
 
-Hata Yönetimi: Geçersiz skor girişlerini veya hatalı takım eşleşmelerini engelleyen kontrol mekanizmaları.
+## 🛠️ Kullanılan Teknolojiler
 
-🛠️ Teknik Altyapı
-Programlama Dili: C# (.NET).
+*   **C# (.NET)**
+*   **Windows Forms App**
+*   **Nesne Tabanlı Programlama (OOP)**
 
-Arayüz: Windows Forms Application (WinForms).
+---
 
-Mimari: Nesne Tabanlı Programlama (OOP) ilkelerine uygun sınıf yapıları.
+## ⚙️ Kurulum ve Çalıştırma
 
-Dosya Yönetimi: Gereksiz derleme dosyalarını dışarıda tutan .gitignore yapılandırması.
-
-🔧 Kurulum ve Çalıştırma
-Projeyi bilgisayarınıza indirin veya klonlayın.
-
-Turnuva ve Maç Yönetim Sistemi.slnx dosyasını Visual Studio ile açın.
-
-Visual Studio üzerinden projeyi derleyin ve F5 tuşu ile başlatın.
+1.  **Solution Dosyasını Açın:** Visual Studio üzerinden `.sln` uzantılı dosyayı başlatın.
+2.  **Derleme:** Üst menüden **Build > Build Solution** seçeneğine tıklayın.
+3.  **Başlatın:** **F5** tuşuna basarak turnuva yönetim panelini aktif hale getirin.
